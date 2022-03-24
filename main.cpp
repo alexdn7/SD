@@ -56,7 +56,6 @@ void merge(vector<long long> &vec, vector<long long> &v1, vector<long long> &v2)
         vec.push_back(v2.at(p2++));
     }
 }
-// e bun
 
 void mergeSort(vector<long long> &v) {
     if (v.size() <= 1)
@@ -71,7 +70,7 @@ void mergeSort(vector<long long> &v) {
     merge(v, v1, v2);
 
 }
-// bun
+
 void shellSort(vector<long long> &v, long long dimensiune)
 {
     for(long long gap = dimensiune/2; gap > 0; gap /= 2)
@@ -85,7 +84,7 @@ void shellSort(vector<long long> &v, long long dimensiune)
         }
     }
 }
-//bun
+
 
 void countSort(vector <long long> &v, long long dimensiune, long long exp) {
     long long i;
